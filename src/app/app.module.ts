@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { compute } from './compute/compute';
+import { VoteComponent } from './vote/vote.component';
+// import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    compute
+    VoteComponent
   ],
   imports: [
     BrowserModule
